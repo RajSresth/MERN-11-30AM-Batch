@@ -1,0 +1,15 @@
+Hyperlink:- Hyperlink is used to link or attach different documents to our web/html page.
+
+# steps to create hyperlink:- 
+1. First we have to mark the content. to mark the content we use anchor tag (<a>Google</a>). It is Container Tag.
+
+2. Mention the path or location or hyperreference where we want user to be redirected. Hence we use href attribute.
+
+#syntax:- 
+<a href="https://www.google.com" target="_self">Google</a>
+
+#Target Attribute:- Target attribute is used to specify where to open the link.
+ values:- _self (default)
+          _blank
+          _top  
+          _parent
