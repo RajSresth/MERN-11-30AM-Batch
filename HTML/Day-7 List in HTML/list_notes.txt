@@ -1,0 +1,51 @@
+List:- List is collection or group of related items.
+
+# Types of List:- 3 types
+1. ordered list
+2. unordered list
+3. description list
+
+# Ordered List:- 
+   1. It is group of related items having some        sequence.    
+   2. To create ordered list we use <ol></ol> tag.
+   3. To create list item we use <li></li> tag.
+
+# syntax:- 
+    <ol type="" start="" reversed>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Guava</li>
+    </ol>
+
+# Type attribute:- Type attribute is used to specify which type of bullet you want to represent.
+
+     type="_______"
+
+          i) 1  (Number type bullet)
+         ii) A  (Uppercase Alphabet type bullet)
+        iii) a  (Lowercase Alphabet type bullet)
+         iv) I  (Uppercase Roman Bullet)
+          v) i  (Lowercase Roman Bullet)
+
+
+
+#Start Attribute:- start attribute specifies starting of the sequence and here start attribute only accepts the numbers.
+
+        start="______"
+
+          values=1,2,3,4,5,6.......n
+
+
+reversed:- reversed attribute is used to reverse the sequence of ordered list.
+
+
+#unordered List:- It is group of related items represented in unordered way i.e bullets are not following any sequence.
+
+   1. To create unordered list we use <ul></ul> tag.
+   2. To create list item we use <li></li> tag.
+
+# Attributes of Unordered List:-
+1. Type Attribute:- Type attribute is used to specify which type of bullet you want to represent.
+
+    type="______"    disc | circle | square | none
