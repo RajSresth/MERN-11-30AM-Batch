@@ -49,3 +49,22 @@ reversed:- reversed attribute is used to reverse the sequence of ordered list.
 1. Type Attribute:- Type attribute is used to specify which type of bullet you want to represent.
 
     type="______"    disc | circle | square | none
+
+#Desciption List:- 
+ 1. Desciption list is a list of term with a description of  each term.
+ 2. To create description list we use <dl></dl> tag.
+ 3. To create description term we use <dt></dt> tag.
+ 4. To create description definition we use <dd></dd> tag.
+ 5. Description definition tag we have to write in between description term tag. And description term tag we have to write with in description list tag.
+6. Description List is also known as Dictionary List of     Definition List.
+
+# Syntax:-
+        <dl>
+            <dt>1. HTML
+                    <dd>Hyper Text Markup Lamguage.</dd>
+            </dt>
+            <dt>2. CSS
+                    <dd>Cascading Style Sheet</dd>
+            </dt>
+        </dl>
+      
