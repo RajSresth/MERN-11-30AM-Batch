@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in HTML</title>
+    <style>
+        thead,tfoot{
+            background-color: black;
+            color: white;
+        }
+        tbody{
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellpadding="25" cellspacing="10" rules="all" align="center">
+        <caption>Developer's Salary Table</caption>
+        <thead>
+            <!-- Row-1 -->
+             <tr>
+                <th>Employee Id</th>
+                <th>Employe Name</th>
+                <th>Salary</th>
+             </tr>
+        </thead>
+        <tbody>
+            <!-- Row-2 -->
+             <tr align="center">
+                <td>101</td>
+                <td>Devashish</td>
+                <td>100000</td>
+             </tr>
+             
+             <!-- Row-3 -->
+              <tr align="center">
+                <td>102</td>
+                <td>Dinga</td>
+                <td>150000</td>
+              </tr>
+        </tbody>
+        <tfoot>
+            <!-- Row-5 -->
+            <tr align="center">                
+                <td colspan="2">Total Salary</td>
+                <td>250000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
