@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms in HTMl</title>
+    <style>
+        input[type=number]{
+            appearance: textfield;
+        }
+    </style>
 </head>
 <body>
     <form action="#">
@@ -25,9 +30,26 @@
         LinkedIn Profile <input type="url"><br><br>
         Github URL <input type="url"><br><br>
 
-        Mention Your Crush Name <br>
-        <input type="hidden"> <br><br>
+        <!-- Mention Your Crush Name <br> 
+        <input type="hidden">-->
 
+        Enter Roll number <input type="number">  <br><br> 
+
+        Gender <br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other <br><br>
+
+        Hobbies <br>
+        <input type="checkbox"> More Sleeping
+        <input type="checkbox"> More Eating
+        <input type="checkbox"> Painting <br>
+        <input type="checkbox"> Singing
+        <input type="checkbox"> Dancing
+        <input type="checkbox"> Drinking Water
+        <input type="checkbox"> Travelling
+ 
+        <br><br>
         <input type="submit" value="create your account">
         <input type="reset" value="cancel">
         <input type="image" src="../Day-6 Test/Assets/Melodi.jpg" width="70px" height="50px">
