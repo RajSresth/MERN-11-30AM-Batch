@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form (Part-2)</title>
     <style>
-        sup{
-            color: red;
-        }
+      sup {
+        color: red;
+      }
     </style>
-</head>
-<body>
-    <form action="#">
-        Name <input type="text" name="user-name" value="Amit" placeholder="Enter full name"><br><br>
-        Mob <input type="tel" name="user-mobile-number" placeholder="+91-xxxxxxxxxx"><br><br>
-        Email<sup>*</sup> <input type="email" name="user-email" placeholder="xyz@gmail.com" required><br><br>
-        Password<sup>*</sup> <input type="password" name="user-password" placeholder="at least 6 characters" required><br><br>
-        <input type="submit" value="Login">
-        <input type="reset" value="Cancel">
+  </head>
+  <body>
+    <form action="#"  autocomplete="off">
+      Name
+      <input
+        type="text"
+        name="user-name"       
+        placeholder="Enter full name" 
+        autofocus   
+        size="40"    
+        minlength="2"
+        maxlength="16"       
+      /><br /><br />
+      Mob
+      <input
+        type="tel"
+        name="user-mobile-number"
+        placeholder="+91-xxxxxxxxxx"
+        minlength="10"
+        maxlength="10"
+      /><br /><br />
+
+      Email<sup>*</sup>
+      <input
+        type="email"
+        name="user-email"
+        placeholder="xyz@gmail.com"
+        required        
+      /><br /><br />
+      Password<sup>*</sup>
+      <input
+        type="password"
+        name="user-password"
+        placeholder="at least 6 characters"
+        required
+      /><br /><br />
+
+      Number <input type="number" min="0" max="100" step="10" required><br><br>
+
+      <input type="range" min="0" max="100" step="10" value="0"><br><br>
+
+      Upload Your Resume <br>
+      <input type="file" multiple accept=".pdf"> <br><br>
+
+      <input type="submit" value="Login" />
+      <input type="reset" value="Cancel" />     
     </form>
-</body>
+  </body>
 </html>

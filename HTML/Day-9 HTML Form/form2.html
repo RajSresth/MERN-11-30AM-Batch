@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form (Part-3)</title>
+    <style>
+        fieldset{
+            width: 180px;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="#"  autocomplete="off">
+        <fieldset>
+            <legend align="center">Registration From</legend>
+
+            <label for="username">
+                Name
+            </label>
+            <input
+              type="text"
+              name="user-name"       
+              placeholder="Enter full name"         
+              size="20"    
+              minlength="2"
+              maxlength="16"  
+              id="username"               
+            /><br /><br />    
+    
+            <label for="user-mob">Mob</label>
+            <input
+              type="tel"
+              name="user-mobile-number"
+              placeholder="+91-xxxxxxxxxx"
+              minlength="10"
+              maxlength="10"
+              id="user-mob"       
+            /><br /><br />
+      
+            <label for="user-email">
+                Email<sup>*</sup>
+            </label>
+            <input
+              type="email"
+              name="user-email"
+              placeholder="xyz@gmail.com"
+              required    
+              id="user-email"                 
+            /><br /><br />
+    
+    
+            <label for="user-pass">
+                Password<sup>*</sup>
+            </label>
+            <input
+              type="password"
+              name="user-password"
+              placeholder="at least 6 characters"
+              required     
+              id="user-pass"     
+            /><br /><br />   
+            
+            <select name="yop-details" id="">
+                <option value="" disabled selected>--Select Your YOP--</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>                
+            </select>
+            <br><br>
+
+            <input type="text" placeholder="Enter state name" list="state-name" required name="user-state-name">
+            <datalist id="state-name">
+                <option value="Uttar Pradesh"></option>
+                <option value="Uttarakhand"></option>
+                <option value="Arunachal Pradesh"></option>
+                <option value="Andjhra Pradesh"></option>
+                <option value="Bihar"></option>
+                <option value="Maharashtra"></option>
+                <option value="Madhya Pradesh"></option>
+                <option value="Pakistan"></option>
+            </datalist>
+
+
+            <br><br>      
+            <input type="submit" value="Login" />
+            <input type="reset" value="Cancel" />     
+        </fieldset>
+    </form>
+  </body>
+</html>

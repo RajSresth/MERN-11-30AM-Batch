@@ -112,3 +112,85 @@ The minlength attribute specifies the minimum number of characters allowed in an
     2.video/*: The user can pick all video files.
     3. image/*: A valid media type, with no parameters. 
     4. .png
+
+
+# Label Tag:- 
+  1. Label tag is used to connect text with the input field.
+  2. The text we want to connect we have to write within label tag.
+  3. It is container tag.
+  4. In input tag, we have to use id attribute and that id's value we have to pass to label's for attribute.
+  5. Whenever user click on that text respective input field will be focused.
+
+  6. syntax:-
+        <label for="username">Name</label>
+        <input type="text" id="username">
+
+# Fieldset Tag:
+  1. Fieldset Tag is used to group form control and it will create one box around the group.
+  2. It is container Tag.
+  3. Fieldset Tag we have to write with in Form Tag.
+
+# Legend Tag:
+  1. It is container Tag.
+  2. To provide title or caption to the fieldset we use legend tag.
+  3. Legend tag we have to write with in Fieldset Tag.
+
+syntax:- 
+      <form action="">
+          <fieldset>
+                <legend>Registration Form</legend>         
+
+              <label for="username">Name</label>
+              <input type="text" id="username">
+              <br><br>
+
+          </fieldset>
+      </form>
+
+# Select Tag:
+  1. It is container Tag.
+  2. It is used to create dropdown list.
+  3. To create dropdown list we use select tag.
+  4. Here we are providing multiple options to the user from these option user can select only one option.
+  5. To create Option we use Option Tag. It is container tag.
+  6. syntax:- 
+
+      <select name="State-name" id="">
+        <option value="" selected disabled>--Select State Name--</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Bihar">Bihar</option>
+      </select>
+
+# Disadvantage of Select Tag
+
+    1. The main disadvantage of the select tag is that it limits the user's input options to the predefined list of options provided by the developer using the option tags.
+
+    2. The user cannot enter any text of their choice or customize the options available in the list.
+
+
+# DataList Tag: Autocomplete List/ Suggestion List
+
+    1. The Datalist Tag is introduced in Html5.
+    2. The Html datalist tag is used to provide an autocomplete feature on the form element.
+    3. Datalist tag is a container tag.
+    4. It is block level element.
+    5. It is used to provide a list of predefined options to the users.
+    6. Datalist tag is used to create suggestion list or autocomplete list.
+    7. The <datalist> tag contains a set of <option> tags that define the options in the list.
+    8. We are binding the suggestion list with the input field, for this we have to provide 'list' attribute in the input tag and 'id' attribute in the datalist tag, this same 'id' we have to provide in the 'list' attribute of input tag.
+    9. Whenever the user inputs in the input field related suggestions are displayed.
+    10. The advantage of using the datalist tag is that it allows users to enter values that are not present in the options list
+
+    11. syntax:- 
+
+      <input type="text" list="state-name" placeholder="Enter state name">
+
+      <datalist id="state-name">
+        <option value="Delhi"></option>
+        <option value="Mumbai"></option>
+        <option value="Uttar Pradesh"></option>
+        <option value="Bihar"></option>
+      </datalist>
