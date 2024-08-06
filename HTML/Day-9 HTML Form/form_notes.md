@@ -194,3 +194,18 @@ syntax:-
         <option value="Uttar Pradesh"></option>
         <option value="Bihar"></option>
       </datalist>
+
+
+
+# Textarea:- 
+  1. It is container.
+  2. It is used to accept multi line input from the user.
+
+ # note:- when content is more inside the textarea, it will automatically create scroll bar.
+
+ # Attributes of Textarea:-
+ 1. rows:- rows attribute is used to provide the dimension of height.
+ 1. cols:- cols attribute is used to provide the dimension of width.
+
+ # syntax:- 
+  <textarea rows="10" cols="30" name="" id=""></textarea>

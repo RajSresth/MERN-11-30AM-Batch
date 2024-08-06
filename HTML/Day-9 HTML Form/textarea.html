@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Textarea</title>
+    <style>
+      fieldset {
+        width: 150px;
+      }
+      textarea{
+        resize: none;
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend align="center">Login Form</legend>
+        <label for="user-email"
+          >Email
+          <input
+            type="email"
+            name="emailId"
+            id="user-email"
+            placeholder="xyz@gmail.com"
+          />
+        </label>
+        <br /><br />
+
+        <label for="pass"
+          >Password
+          <input
+            type="password"
+            name="user-password"
+            id="pass"
+            placeholder="at least 8 characters"
+          />
+        </label>
+        <br /><br />
+
+        <label for="feedback">User Feedback</label>
+        <textarea name="user-info" id="feedback" cols="30" rows="10" placeholder="Write Something..!!"></textarea>
+        <br /><br />
+
+   
+        <button type="submit">Login</button>
+        <button type="reset">Cancel</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
