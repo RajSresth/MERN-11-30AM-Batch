@@ -1,0 +1,24 @@
+/* article .myInd{
+    color: mediumseagreen;
+}
+
+article>p{
+    color: blue;
+}
+
+article>main>p{
+    color: orangered;
+} */
+
+/* article~.p5{
+    color: magenta;
+} */
+
+/* article~p,
+article~span{
+    color: blue;
+} */
+
+article~.div2 span{
+    color: magenta;
+}

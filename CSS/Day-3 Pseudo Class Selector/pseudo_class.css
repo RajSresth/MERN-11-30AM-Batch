@@ -1,0 +1,11 @@
+/* article>:nth-child(odd){
+    
+    color: orange;
+}
+article>:nth-child(even){
+    color: red;
+} */
+
+article~main>:nth-child(1)>p{
+    color: magenta;
+}

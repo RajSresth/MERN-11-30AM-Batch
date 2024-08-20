@@ -1,0 +1,23 @@
+/* Universal Selector */
+
+*{
+    color: magenta;
+}
+
+/* Tagname Selector 
+div{
+    color: green;
+}*/
+
+/* Id Selector 
+#div1{
+    color: cyan;
+}*/
+
+/* class Selector 
+.myTag{
+    color: palevioletred;
+}*/
+
+
+
