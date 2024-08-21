@@ -1,11 +1,71 @@
-/* article>:nth-child(odd){
-    
-    color: orange;
+/* article>p:first-of-type{
+    color: purple;
 }
-article>:nth-child(even){
-    color: red;
-} */
 
-article~main>:nth-child(1)>p{
+article>p:last-of-type{
+    color: orangered;
+}
+    css
+
+article>span:first-of-type{
+    color: greenyellow;
+}
+
+article>span:last-of-type{
+    color:turquoise;
+}
+
+article>span:nth-of-type(3){
     color: magenta;
+}
+
+
+article>p:nth-of-type(2){
+    color: salmon;
+} 
+
+
+article>p:nth-last-of-type(3){
+    color: salmon;
+}
+
+
+article>:nth-last-child(3){
+    color: mediumaquamarine;
+}*/
+
+/* Not Visited State:- skyblue */
+a:link{
+    color: deeppink;
+}
+
+/* Active state:- Red */
+a:active{
+    color: mediumaquamarine;
+}
+
+/* Visited State:- Purple */
+a:visited{
+    color: black;
+}
+
+a{
+    text-decoration: none;    
+}
+
+a:hover{
+    text-decoration: underline red;    
+}
+input{
+    border-radius: 0px;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input:focus{
+   outline:2px solid deeppink;
+   outline-offset: 0px;
+   border: none;
 }

@@ -1,0 +1,48 @@
+/* p:not(#p3){
+    color: red;
+} 
+
+
+:is(h2,h4,h6){
+    color: orange;
+    font-size: 32px;
+}
+
+
+:where(h1,h3,h5){
+    color: deepskyblue;
+    font-size: 32px;
+}*/
+
+/* div{
+    width: 300px;
+    height: 300px;
+}
+div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+
+/* div:has(p){
+    font-size: 22px;
+    color: orange;
+} */
+
+
+
+/* article:has(span){
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: lightblue;
+} */
+
+article>:nth-child(odd){
+    color: red;
+}
+
+article>:nth-child(even){
+    color: magenta;
+}
