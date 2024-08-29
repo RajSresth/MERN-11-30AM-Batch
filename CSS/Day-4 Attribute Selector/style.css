@@ -1,0 +1,29 @@
+/* div[title="div2"]{
+    color: magenta;
+} */
+
+button[type="submit"]{
+    background-color: rgb(23, 132, 196);
+    color: white;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 2px;
+}
+button[type="reset"]{
+    background-color:rgb(167, 5, 5);
+    color: white;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 2px;
+}
+
+input[type="email"]{
+    color: darkcyan;
+    outline: none;
+}
+input[type="password"]
+{
+    color: darkcyan;
+    outline: none;
+}
+

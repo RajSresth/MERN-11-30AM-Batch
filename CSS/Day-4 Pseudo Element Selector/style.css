@@ -1,0 +1,59 @@
+/* div::first-letter{
+    color: red;
+    font-size: 28px;
+    font-style: italic;
+}
+
+p::first-line{
+    color: lightcoral;
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+*::selection{
+    background-color: darkgreen;
+    color: white;
+}
+
+
+ul>li::marker{
+    content: "❤️ ";
+    font-weight: bold;
+} */
+
+/* ::before Selector */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+
+span::before{
+    content: "";
+   background-color: orange;
+   width: 50px;
+   height: 1.5px;
+   display: inline-block;
+   margin-right: 5px;
+}
+span::after{
+    content: " ";
+    background-color: green;
+    width: 50px;
+    height: 1.5px;
+    display: inline-block;
+  margin-left:5px ;
+}
+
