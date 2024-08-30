@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.container-1{
+    border: 2px solid white;
+    height: 500px;
+    width: 800px;
+    background-image: url("https://www.holidaymonk.com/wp-content/uploads/2022/03/Nahargarh-Fort-Jaipur-Rajasthan.webp"),url('./Assets/Virushka.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 200px,180px 150px;
+    background-position: center,top left;
+
+}
