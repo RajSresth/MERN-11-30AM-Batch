@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+.card-1{
+    background-color: mediumaquamarine;
+    display: inline-block;    
+}
+.card-2{
+    background-color: mediumorchid;
+    display: inline-block;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+.card-3{
+    background-color: darkgoldenrod;
+    display: inline-block;
+}
+

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{   
+    background-color: lightblue;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+    flex-flow: row wrap;
+    /* gap: 50px 30px; */
+    gap: 50px;
+}
+.child{
+    width: 200px;
+    height: 200px;
+}
+.child-1{
+    background-color: rgb(6, 114, 78);
+}
+.child-2{
+    background-color: rgb(156, 91, 6);
+}
+.child-3{
+    background-color: rgb(46, 14, 190);
+}
