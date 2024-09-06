@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 1000px;
+    height: 600px;
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.child{
+    width: 150px;
+    height: 150px;
+    font-size: 38px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+}
+section .child:nth-of-type(even){
+    background-color: purple;
+}
+section .child:nth-of-type(odd){
+    background-color: teal;
+}
