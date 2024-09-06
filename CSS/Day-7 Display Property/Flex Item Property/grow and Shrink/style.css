@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;  /* 1536*/
+    height: 100vh;
+}
+#hero{
+    width: 100%;  /* 1536 px*/
+    height: 80%;   /*700px*/
+    background-color: tomato;
+    display: flex;
+}
+#hero .left{
+   flex-grow:1.75;
+    height:100%; /* 700px*/
+    background-color: purple;
+    flex-shrink: 0;
+    min-width: 400px;
+}
+#hero .right{
+    flex-grow:2.25;
+    flex-shrink: 20;
+    height: 100%;
+    background-color: mediumaquamarine;
+    min-width: 500px;
+}

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent{
+    width: 1200px;
+    height: 600px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.child{
+    width: 200px;
+    height: 200px;
+}
+.child-1{
+    background-color: rgb(9, 151, 151);
+    order: 3;
+    align-self: flex-end;
+}
+.child-2{
+    background-color: rgb(167, 13, 167);
+    flex-basis: 400px;
+    order: 2;
+    align-self: center;
+}
+.child-3{
+    background-color: rgb(255, 213, 0);
+    order: 1;
+    
+}
