@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    font-family: "League Spartan", system-ui;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.card-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+}
+
+.card-container .card{
+    width: 427px;
+    height: 569px;    
+    overflow: hidden;
+    position: relative;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.055),rgba(0, 0, 0, 0.964)) ;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card-container .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    scale: 1;
+    transition: scale 0.3s linear 0s;
+}
+
+.card:hover img{
+    scale: 1.20;
+}
+
+.card-container .card .des{
+    width: 346px; 
+    height: 202px;   
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    /* background-color: coral; */
+}
+.card-container .card h3{
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+.card .des span{
+    position: absolute;
+    bottom: 0;
+    border: 2px solid transparent;
+    transition:border 0.3s linear 0s;
+}
+
+.card:hover span{
+    /* text-decoration:2px underline rgb(17, 106, 207) ;
+    text-underline-position: under; */
+    border-bottom: 2px solid  rgb(17, 106, 207);
+}
+.card .des span i{
+    color:white;
+}
+.card .des span a{
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 18px;
+    margin-left: 7.5px;
+}
