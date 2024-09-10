@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+#service{
+    width: 100%;
+    height: 100%;
+    padding: 100px 80px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: flex-start;
+}
+
+#service .card-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#service .card-container .card{
+    width: 313px;
+    height: 344px;
+    /* background-color: white; */
+    position: relative;   
+    border-radius: 8px;
+    overflow: hidden;
+    translate: 0px 0px;
+    transition:translate 0.25s linear 0s;
+    cursor: pointer;
+}
+#service .card-container .card:hover{
+    translate: 0px -15px;  
+}
+#service .card-container .card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: linear-gradient(rgb(67, 67, 67,0.45),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.692));    
+}
+
+#service .card-container .card:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.801) 20%,transparent);
+}
+#service .card img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#service .card h3{
+    position: absolute;
+    top: 28px;
+    left: 25px;
+    font-size: 26px;
+    font-weight: 400;
+    z-index: 2;
+    letter-spacing: 0.5px;
+}
+#service .start{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    /* background-color: orange; */
+}
+#service h2{
+    font-weight: 400;
+    font-size: 38px;
+}
+
+#service .btn-container{
+    width: 100%;
+    text-align: center;   
+}
+#service .btn-container button{
+    padding: 13px 30px;
+    border-radius: 25px;
+    border: 1.5px solid white;
+    background: transparent;
+    font-size: 19px;
+    font-weight: 520;
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+#service .btn-container button i{
+    margin-inline-start: 8px;
+    font-weight: 600;
+}
+#service .btn-container button:hover{
+    background: #fff;
+}
+#service .btn-container button:hover,
+#service .btn-container button:hover i{    
+    color: black;
+}
+
+.card-3 img{
+    object-fit: cover;    
+}
