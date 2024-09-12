@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.808),transparent,rgba(0, 0, 0, 0.778)),url('https://cdn.kimkim.com/files/a/images/ff5478e8187d22713965a9294eb1df9fb7fcbc22/original-8575b02337523bb26c3593a62313bd75.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+section h1{
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    left: 35%;
+    top: 0;
+    animation: heading 0.5s linear 0s 1 forwards;
+    opacity: 0;
+}
+section p{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    left: 22%;
+    top: 10%;
+    animation: para 0.5s linear 0.5s 1 forwards;
+    opacity: 0;
+}
+@keyframes heading {
+    from{
+        left: 35%;
+        top: 0;
+        opacity: 0;
+    }
+    to{
+        left: 35%;
+        top: 35%;
+        opacity: 1;
+    }
+}
+
+@keyframes para {
+    from{
+        left: 22%;
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        left: 22%;
+        top: 45%;
+        opacity: 1;
+    }
+}

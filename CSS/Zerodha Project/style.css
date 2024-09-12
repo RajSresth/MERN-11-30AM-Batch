@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Header Design */
+#header{
+    width: 100%;
+    height: 68px;
+    /* background-color: lightblue; */
+    box-shadow: 0px 0.15px 1.5px 0px lightgray;
+}
+
+#header .header-container{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .header-container .left{
+    width: 433px;
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+}
+#header .header-container nav{
+    width: 623px;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;    
+}
+#header .header-container nav a{
+padding-inline: 0px 40px;
+font-size: 14px;
+text-decoration: none;
+color: #7c7a7a;
+}
+#header nav a:last-of-type{
+    font-size: 16px;
+    color: #353535;
+
+}
+#header .left .logo{
+    width: 129px;
+    height: 18px;
+}
+#header .left .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Hero Section Desing */
+#hero{
+    width: 100%;
+    height: 689px;
+    margin-top: 100px;
+    /* background-color: lightcyan; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero .hero-img{
+    width: 743px;
+    height: 313px;
+    margin-bottom: 68px;
+}
+#hero .hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#hero h1{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+#hero h5{
+    font-size: 20px;
+    font-weight: 400;
+    margin-block:10px 45px;
+    color: #505050;
+}
+#hero a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: #387ed1;
+    width: 204px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19.2px;
+    border-radius:2.5px;
+    margin-bottom: 120px;
+}
