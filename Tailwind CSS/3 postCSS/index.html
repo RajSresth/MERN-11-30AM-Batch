@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  </head>
+  <body>
+   <header class="flex items-center justify-center w-full h-10 bg-black text-white lg:h-16">
+      <div class="flex justify-between items-center w-[70%]">
+        <div class="font-semibold lg:text-[1.7rem]">Tom Holland</div>
+        <nav class="mobile-nav lg:hidden">
+          <a href="">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </nav>
+        <nav class="desktop hidden lg:flex lg:gap-12 lg:text-2xl lg:font-medium">
+            <a href="#">About</a>
+            <a href="#">Experience</a>
+            <a href="#">Project</a>
+            <a href="#">Contact</a>            
+        </nav>
+      </div>
+   </header>
+   <main class="w-full h-screen">
+    <section class="hero w-full h-full flex flex-col lg:flex-row lg:h-screen">
+      <div class="top w-full h-1/2 flex justify-center items-center">
+        <div class="profile w-40 h-40">
+          <img src="Assets/img1.jpg" class="w-full h-full rounded-full" alt="">
+        </div>
+      </div>
+      <div class="bottom w-full h-1/2 flex flex-col justify-center items-center">
+        <p class="text-[rgb(85,85,85)] font-semibold text-xs">Hello, I'm</p>
+        <h2 class="text-black font-bold text-xl">Tom Holland</h2>
+        <h5 class="text-[rgb(85,85,85)] text-base font-semibold">Frontend Developer</h5>
+        <div class="btn-container my-4">
+          <a href="" class="bg-transparent text-sm font-semibold py-2 px-4 border-black border-2 rounded-3xl">Download CV</a>
+          <a href="" class="bg-black text-white text-sm font-semibold py-2 px-4 border-black border-2 rounded-3xl">Contact Info</a>
+        </div>
+        <div class="icons flex gap-4">
+          <i class="fa-brands fa-linkedin text-xl"></i>
+          <i class="fa-brands fa-square-github text-xl"></i>
+        </div>
+      </div>
+   </section>
+   </main>
+   <!-- <footer></footer> -->
+  </body>
+</html>
